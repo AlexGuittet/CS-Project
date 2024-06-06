@@ -1,6 +1,6 @@
 # CS-Project
 
-1. The most annoying problem I encountered during the project was image formatting. It was not mixing well with the text and the way I wanted to align the text in question. I had to work to format it so that it fit well. The specific code that helped with that was the following: "<div class="image2"> </div> style="margin-left:780px;" style="float: right;"> <br></div></div>". With this, I could customize more or less where I wanted the image, which ended up working perfectly fine.
+1. The most annoying problem I encountered during the project was image formatting. It was not mixing well with the text and the way I wanted to align the text in question. I had to work to format it so that it fit well. The specific code that helped with that was the following: "style="margin-left:780px;" style="float: right;"> <br></div></div>". With this, I could customize more or less where I wanted the image, which ended up working perfectly fine.
 
 2. My understanding of computing has changed in every respect since the beginning of this semester. I have learned to understand a little bit about many different aspects of programming, including HTML, CSS, C, and JS. For example, I also learned some about how computers work and how characters are interpreted as ASCII codes by the computer; A = 65, B = 66, and so on.
 

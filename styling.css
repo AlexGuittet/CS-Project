@@ -1,0 +1,82 @@
+
+img {
+    float:left;
+}
+
+
+img {
+    width:430px
+}
+
+img {
+    margin-left: 400px
+}
+
+img {
+    border-radius: 20px;
+  }
+
+img {
+    margin-top: 18px
+}
+
+body {
+    background-image: url('https://assets-global.website-files.com/5a9ee6416e90d20001b20038/64dc98450f76ea49710225f9_03.jpg')
+  }
+
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+.container {
+    float:left;
+    margin-left:300px;
+}
+
+.img {
+    float:right;
+    position:absolute;
+    margin-left:300px
+}
+
+img {
+    margin-right: 280px;
+}
+
+.firstdiv {
+    margin-left:700px
+}
+
+.container2 {
+    float:left;
+}
+
+.image2 {
+    margin-top:-190px;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.h3 {
+    margin-top:100px;
+}
+
+.randomizer {
+    display: block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+  }

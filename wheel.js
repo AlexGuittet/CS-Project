@@ -2,21 +2,21 @@ let sections = document.querySelectorAll('.section');
 let highlightedIndex = 0;
 let flickerInterval;
 let spinInterval;
-const flickerDuration = 200; // Flicker duration in milliseconds
-const spinDuration = 5000; // 5 seconds
+const flickerDuration = 200; 
+const spinDuration = 5000;
 
 function startHighlight() {
     if (flickerInterval) clearInterval(flickerInterval);
     if (spinInterval) clearInterval(spinInterval);
     flickerInterval = setInterval(flickerNext, flickerDuration);
-    setTimeout(stopFlicker, spinDuration); // Stop flickering after spin duration
+    setTimeout(stopFlicker, spinDuration); 
 }
 
 function flickerNext() {
     sections.forEach(section => {
         section.classList.remove('highlighted');
     });
-    highlightedIndex = Math.floor(Math.random() * sections.length); // Randomly select one of the values
+    highlightedIndex = Math.floor(Math.random() * sections.length); 
     sections[highlightedIndex].classList.add('highlighted');
 }
 
@@ -25,7 +25,7 @@ function stopFlicker() {
     let selectedValue = sections[highlightedIndex].innerText;
     displaySelectedValue(selectedValue);
     let flickerCount = 0;
-    let flickerTotal = 5; // Adjust the total number of flickers
+    let flickerTotal = 5; 
     let flickerToggle = true;
     spinInterval = setInterval(function() {
         flickerCount++;

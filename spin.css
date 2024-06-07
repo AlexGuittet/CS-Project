@@ -1,6 +1,6 @@
 
 body {
-    background-color: #4d3253; /* Dark purple background */
+    background-color: #4d3253;
     font-family: Arial, sans-serif;
 }
 
@@ -8,57 +8,57 @@ body {
     font-size: 2em;
     text-align: center;
     margin-bottom: 20px;
-    color: #ff4d4d; /* Bright red */
+    color: #ff4d4d;
 }
 
 .wheel-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; /* Align button and wheel vertically */
-    height: 100vh; /* Center vertically */
+    flex-direction: column;
+    height: 100vh;
 }
 
 .wheel {
     display: flex;
     flex-wrap: wrap;
     padding: 20px;
-    background-color: #ffffff; /* White background */
+    background-color: #ffffff;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .section {
     width: 100px;
     height: 50px;
-    background-color: #e8e5f5; /* Pastel purple */
+    background-color: #e8e5f5; 
     margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 8px;
     font-size: 1.2em;
-    color: #333333; /* Dark grey text */
-    transition: background-color 0.3s ease; /* Smooth transition */
+    color: #333333; 
+    transition: background-color 0.3s ease; 
 }
 
 .highlighted {
-    background-color: #ff4d4d; /* Bright red */
-    color: #ffffff; /* White text */
+    background-color: #ff4d4d;
+    color: #ffffff;
 }
 
 .spin-button {
-    background-color: #e8e5f5; /* Pastel purple */
-    color: #333333; /* Dark grey text */
+    background-color: #e8e5f5;
+    color: #333333; 
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
-    margin-top: 20px; /* Add some space between button and wheel */
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    margin-top: 20px;
 }
 
 .spin-button:hover {
-    background-color: #d1cdfc; /* Lighter shade of pastel purple on hover */
+    background-color: #d1cdfc;
 }
